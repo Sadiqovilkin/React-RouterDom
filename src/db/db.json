@@ -1,44 +1,52 @@
 {
-    "countries": [
-        {
-            "id": 1,
-            "name": "Azerbaijan",
-            "population": "10,353,296",
-            "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/125px-Flag_of_Azerbaijan.svg.png",
-            "capital": "Baku",
-            "description": "Azerbaijan,[a] officially the Republic of Azerbaijan,[b] is a transcontinental country located at the boundary of Eastern Europe and West Asia.[9] It is a part of the South Caucasus region and is bounded by the Caspian Sea to the east, Russia's republic of Dagestan to the north, Georgia to the northwest, Armenia and Turkey to the west, and Iran to the south."
-        },
-        {
-            "id": 2,
-            "name": "Turkey",
-            "population": "85,372,377",
-            "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/125px-Flag_of_Turkey.svg.png",
-            "capital": "Ankara",
-            "description": "Turkey,[a] officially the Republic of Türkiye,[b] is a country mainly in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe. It borders the Black Sea to the north; Georgia, Armenia, Azerbaijan, and Iran to the east."
-        },
-        {
-            "id":3,
-            "name": "United States",
-            "population": " 334,914,895",
-            "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/125px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
-            "capital": "Washington, D.C",
-            "description": "The United States of America (USA or U.S.A.), commonly known as the United States (US or U.S.) or America, is a country primarily located in North America. It is a federation of 50 states."
-        }
-    ],
-    "users": [
-        {
-          "id": "1",
-          "username": "elnurxo",
-          "email": "elnur@gmail.com",
-          "password": "Admin123",
-          "role": "admin"
-        },
-        {
-          "id": "2",
-          "username": "nicat557",
-          "email": "nijat@gmail.com",
-          "password": "Nijat123",
-          "role": "client"
-        }
-      ]
+  "countries": [
+    {
+      "id": 1,
+      "name": "Azerbaijan",
+      "population": "10,353,300",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/125px-Flag_of_Azerbaijan.svg.png",
+      "capital": "Baku",
+      "description": "Azerbaijan,[a] officially the Republic of Azerbaijan,[b] is a transcontinental country located at the boundary of Eastern Europe and West Asia.[9] It is a part of the South Caucasus region and is bounded by the Caspian Sea to the east, Russia's republic of Dagestan to the north, Georgia to the northwest, Armenia and Turkey to the west, and Iran to the south."
+    },
+    {
+      "id": 2,
+      "name": "Turkey",
+      "population": "85,372,377",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/125px-Flag_of_Turkey.svg.png",
+      "capital": "Ankara",
+      "description": "Turkey,[a] officially the Republic of Türkiye,[b] is a country mainly in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe. It borders the Black Sea to the north; Georgia, Armenia, Azerbaijan, and Iran to the east."
+    },
+    {
+      "id": 3,
+      "name": "United States",
+      "population": " 334,914,895",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/125px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
+      "capital": "Washington, D.C",
+      "description": "The United States of America (USA or U.S.A.), commonly known as the United States (US or U.S.) or America, is a country primarily located in North America. It is a federation of 50 states."
+    },
+    {
+      "name": "Russian",
+      "population": "144,200,000",
+      "description": "Russia, or the Russian Federation, is a country spanning Eastern Europe and North Asia. It is the largest country in the world by area, and the largest country in Europe and the largest country in Asia, extending across eleven time zones and sharing land borders with fourteen countries",
+      "capital": "Moskov",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "elnurxo",
+      "email": "elnur@gmail.com",
+      "password": "Admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "nicat557",
+      "email": "nijat@gmail.com",
+      "password": "Nijat123",
+      "role": "client"
+    }
+  ]
 }
