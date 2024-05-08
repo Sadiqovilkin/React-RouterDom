@@ -24,5 +24,21 @@
             "capital": "Washington, D.C",
             "description": "The United States of America (USA or U.S.A.), commonly known as the United States (US or U.S.) or America, is a country primarily located in North America. It is a federation of 50 states."
         }
-    ]
+    ],
+    "users": [
+        {
+          "id": "1",
+          "username": "elnurxo",
+          "email": "elnur@gmail.com",
+          "password": "Admin123",
+          "role": "admin"
+        },
+        {
+          "id": "2",
+          "username": "nicat557",
+          "email": "nijat@gmail.com",
+          "password": "Nijat123",
+          "role": "client"
+        }
+      ]
 }

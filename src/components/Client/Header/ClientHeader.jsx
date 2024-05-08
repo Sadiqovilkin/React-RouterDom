@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const ClientHeader = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static">
+    <AppBar position="static" style={{backgroundColor:"green"}}>
       <Toolbar>
         <IconButton
           size="large"
@@ -25,20 +25,20 @@ const ClientHeader = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Client 
         </Typography>
+        <Button color="inherit" >
+          <Link style={{color:"black",textDecoration:"none"}} to={"/"}>Home</Link>
+        </Button>
+
         <Button color="inherit">
-          <Link to={"/"}>Home</Link>
+          <Link style={{color:"black",textDecoration:"none"}} to={"/countries"}>ClientCountries</Link>
         </Button>
 
-        <Button color="clientcountries">
-          <Link to={"/countries"}>ClientCountries</Link>
+        <Button  color="inherit">
+          <Link style={{color:"black",textDecoration:"none"}} to={"/about"}>About</Link>
         </Button>
 
-        <Button color="clientcountries">
-          <Link to={"/about"}>About</Link>
-        </Button>
-
-        <Button color="clientcountries">
-          <Link to={"/contact"}>contact</Link>
+        <Button color="inherit">
+          <Link style={{color:"black",textDecoration:"none"}} to={"/contact"}>contact</Link>
         </Button>
        
       </Toolbar>

@@ -8,6 +8,7 @@ import Home from "../pages/Client/Home";
 import About from "../pages/Client/About";
 import Contact from "../pages/Client/Contact";
 import NotFound from "../pages/NotFound";
+import AdminLogin from "../pages/Admin/Login/Login";
 
 export const ROUTES = [
     //Admin Layout
@@ -22,6 +23,10 @@ export const ROUTES = [
             {
                 path: 'add-category',
                 element: <AddCountry/>
+            },
+            {
+                path: 'login',
+                element: <AdminLogin/>
             },
             {
                 path: 'countries',
